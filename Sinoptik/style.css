@@ -80,15 +80,15 @@ span {
     float: right;
     text-align: right;
     color: #777;
-    top: 71px;
+    top: 102px;
     left: 105px;
     width: 130px;
     position: absolute;
     display: block;
 }
 
-titles p {
-    padding: 6px 0;
+.titles p {
+    padding: 3px;
     vertical-align: baseline;
 }
 
@@ -109,9 +109,17 @@ titles p {
     clear: both;
 }
 
-td {
-    margin: 5px 5px 5px 5px;
+table {
+    width: 100%;
+}
+
+th, td {
+    padding: 5px;
     text-align: left;
+}
+
+th {
+    text-align: center;
 }
 
 .temperature-table {
