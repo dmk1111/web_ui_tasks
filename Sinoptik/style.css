@@ -1,0 +1,132 @@
+body {
+    font-family: arial,helvetica,sans-serif;
+    text-decoration: none;
+}
+
+p, table {
+    font-size: 14px;
+    margin: 5px;
+}
+
+main .table-tabs img {
+    height: 37px;
+}
+
+.table-tabs {
+    text-align: center;
+    position: relative;
+}
+
+
+
+.active-tab, .not-active-tab {
+    margin: 15px;
+    float: left;
+}
+
+.dateFree {
+    color:#c80404
+}
+
+.date {
+    font-size: 30px;
+    text-align: center;
+}
+
+.dateNumber {
+    font-size: 54px;
+}
+
+.max, .min {
+    display: inline-block;
+    width: 34px;
+    color: #9d9d9d;
+    font-size: 11px;
+    text-align: center;
+}
+
+.min span, .max span {
+    display: block;
+    font-size: 17px;
+    color: #000;
+}
+
+div {
+    display: block;
+}
+
+span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    outline: 0;
+}
+
+.leftSide {
+    float: left;
+    position: relative;
+}
+
+.dateToday {
+    float: left;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titles {
+    float: right;
+    text-align: right;
+    color: #777;
+    top: 71px;
+    left: 105px;
+    width: 130px;
+    position: absolute;
+    display: block;
+}
+
+titles p {
+    padding: 6px 0;
+    vertical-align: baseline;
+}
+
+.rightSide {
+    width: 420px;
+    float: left;
+    position:relative;
+}
+
+.weather {
+    position: relative;
+    left: 160px;
+}
+
+/* TABLES */
+
+.table-content, footer {
+    clear: both;
+}
+
+td {
+    margin: 5px 5px 5px 5px;
+    text-align: left;
+}
+
+.temperature-table {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.temperature-feel {
+    font-size: 14px;
+    color: grey;
+}
+
+/* FOOTER */
+
+footer {
+    position: relative;
+    top: 50px;
+}
